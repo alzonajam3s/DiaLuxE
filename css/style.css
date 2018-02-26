@@ -1,0 +1,31 @@
+#slid {
+	height: 600px !important;
+}
+
+#slids {
+	height: 550px !important;
+}
+
+#header {
+	font-weight: bold !important;
+}
+
+#cast, #cast2, #cast3 {
+	font-size: 1em;
+}
+
+#headp {
+	font-style: italic;
+}
+
+#feet {
+	text-align: center;
+}
+
+#dropdown1 {
+	margin-top: 64px;
+}
+
+#rbuttsub {
+	margin-left: 20px;
+}
