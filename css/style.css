@@ -11,7 +11,7 @@
 }
 
 #cast, #cast2, #cast3 {
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 #headp {
@@ -32,4 +32,18 @@
 
 #aujust {
 	text-align: justify;
+}
+
+
+.slider .indicators .indicator-item.active {
+  background-color: #009688 !important;
+}
+
+.shadowman {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.modal-trigger {
+	margin-bottom: 15px !important;
+	width: 200px;
 }
