@@ -6,22 +6,6 @@
 	height: 550px !important;
 }
 
-#header {
-	font-weight: bold !important;
-}
-
-#cast, #cast2, #cast3 {
-	font-size: 1.5em;
-}
-
-#headp {
-	font-style: italic;
-}
-
-#feet {
-	text-align: center;
-}
-
 #dropdown1 {
 	margin-top: 64px;
 }
@@ -30,7 +14,7 @@
 	margin-left: 80px;
 }
 
-#aujust {
+.aujust {
 	text-align: justify;
 }
 
@@ -46,4 +30,24 @@
 .modal-trigger {
 	margin-bottom: 15px !important;
 	width: 200px;
+}
+
+.fflg {
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.ffbs {
+	font-family: 'Bree Serif', serif;
+}
+
+.marleft {
+	margin-left: 10px;
+}
+
+.divider2 {
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
