@@ -57,7 +57,22 @@
 }
 
 
+body>.bull {
+  background-image:url("../img/hsbg/hsbg5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
 
+}
+
+.transbg {
+  background-color: rgba(0,0,0,0.2) !important;
+}
+
+#topna {
+  z-index: 9;
+}
 
 
 
@@ -119,11 +134,11 @@
 .timeline .timeline-badge {
   display: block;
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: #d2d2d2;
-  top: calc(50% - 20px);
-  right: calc(50% - 20px);
+  top: calc(50% - 25px);
+  right: calc(50% - 25px);
   border-radius: 50%;
   text-align: center;
   cursor: default;
@@ -156,5 +171,11 @@
 }
 
 .yearlh {
-  line-height: 10px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.timeline-event img {
+  width: 400px;
+  height: 300px;
 }
