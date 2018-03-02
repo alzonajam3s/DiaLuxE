@@ -56,6 +56,11 @@
 	margin-top: 6px;
 }
 
+#hhh {
+  width: 50px;
+}
+
+
 
 main {
   background-image:url("../img/hsbg/hsbg5.jpg");
@@ -73,6 +78,25 @@ main {
 #topna {
   z-index: 9;
 }
+
+#histop {
+  margin-top: 0 !important;
+}
+
+.paramed {
+  height: 300px;
+  width: 100%;
+}
+
+.parallax-container {
+  height: 600px;
+}
+
+
+
+
+
+
 
 
 

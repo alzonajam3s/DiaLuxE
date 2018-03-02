@@ -49,4 +49,9 @@ function topFunction() {
   });
 
 
+// PARALLAX
 
+  $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+        
