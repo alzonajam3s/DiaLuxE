@@ -3,7 +3,7 @@
 }
 
 #slids {
-	height: 550px !important;
+	height: 600px !important;
 }
 
 #dropdown1 {
@@ -57,7 +57,7 @@
 }
 
 
-body>.bull {
+main {
   background-image:url("../img/hsbg/hsbg5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
