@@ -60,7 +60,39 @@
   width: 50px;
 }
 
+.watright {
+  text-align: right;
+}
 
+.watheight {
+  height: 400px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.maxheight {
+  display: block;
+  max-height: 400px;
+  box-sizing: cover;
+}
+
+.watwidth {
+  width: 400px;
+}
+
+.watcenter {
+  display: block;
+  text-align: center;
+}
+
+#conbak {
+  background-color: red !important;
+}
+
+.bradius {
+  border-radius: 5%;
+}
 
 main {
   background-image:url("../img/hsbg/hsbg5.jpg");
@@ -68,7 +100,6 @@ main {
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
-
 }
 
 .transbg {
@@ -89,12 +120,17 @@ main {
 }
 
 .parallax-container {
-  height: 600px;
+  height: 500px;
 }
 
+.nav-wrapper .brand-logo img {
+  height: 64px;
+ }
 
-
-
+.blogo {
+  margin-top: 20px;
+  width: 60%;
+ }
 
 
 
