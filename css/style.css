@@ -40,6 +40,10 @@
 	font-family: 'Bree Serif', serif;
 }
 
+.fffo {
+  font-family: 'Fredoka One', cursive;
+}
+
 .marleft {
 	margin-left: 10px;
 }
@@ -147,6 +151,16 @@ main {
   margin-top: 20px;
   width: 60%;
  }
+
+.updel1 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.updel2 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
 
 
 
