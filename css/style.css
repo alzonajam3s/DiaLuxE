@@ -76,10 +76,17 @@
   box-sizing: cover;
 }
 
+.watheight2 {
+  height: 290px !important;
+}
+
 .watwidth {
   width: 100%;
 }
 
+.h210 {
+  height: 210px !important;
+}
 .watcenter {
   display: block;
   text-align: center;
