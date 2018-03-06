@@ -67,5 +67,7 @@ function topFunction() {
     });
   });
 
-
-
+// SCROLL REVEAL
+window.sr = ScrollReveal();
+sr.reveal('.goup');
+sr.reveal('.godown');

@@ -44,6 +44,10 @@
   font-family: 'Fredoka One', cursive;
 }
 
+.fonthead {
+  font-size: 2.5em;
+}
+
 .marleft {
 	margin-left: 10px;
 }
@@ -113,9 +117,14 @@
   border-radius: 5%;
 }
 
+.padpad {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 main {
-  background-image:url("../img/hsbg/hsbg5.jpg");
+  background-image: url("../img/hsbg/h9.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -151,16 +160,6 @@ main {
   margin-top: 20px;
   width: 60%;
  }
-
-.updel1 {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-}
-
-.updel2 {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-}
 
 
 
