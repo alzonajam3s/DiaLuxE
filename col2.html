@@ -26,14 +26,16 @@
 	<title>DiaLuxE</title>
 </head>
 <body class="grey lighten-4">
-	<!-- navbar dropdown -->
+	
+<!-- start navbar dropdown -->
 	<ul id="dropdown1" class="dropdown-content">
 		<li><a href="col1.html">Patek Philippe & Co.</a></li>
 		<li><a href="col2.html">Rolex</a></li>
 		<li><a href="col3.html">TAG Heuer</a></li>
 	</ul>
+<!-- end navbar dropdown -->
 
-	<!-- navbar start -->
+<!-- start navbar -->
 	<nav>
 		<div class="nav-wrapper teal darken-4">
 			<a href="home.html" class="brand-logo marleft "><img class="responsive-img" src="img/DiaLuxE.png"></a>
@@ -74,13 +76,28 @@
 			</ul>
 			<!-- end small screen nav button -->
 		</div>
-	</nav> <!-- end nav for navbar -->
-	
-    <!-- navbar end -->  
+	</nav> 
+<!-- end navbar -->	
 
-    <!-- start container -->
+<!-- start float menu -->
+	<div class="fixed-action-btn vertical">
+		<a class="btn-floating btn-large teal darken-2">
+			<i class="large material-icons">menu</i>
+		</a>
+		<ul>
+			<li><a href="home.html" class="btn-floating red darken-3"><i class="material-icons">home</i></a></li>
+			<li><a href="history.html" class="btn-floating yellow darken-3"><i class="material-icons">history</i></a></li>
+			<li><a href="collection.html" class="btn-floating green darken-3"><i class="material-icons">collections</i></a></li>
+			<li><a href="contact.html" class="btn-floating orange darken-3"><i class="material-icons">phone</i></a></li>
+			<li><a onclick="topFunction()" class="btn-floating grey darken-3"><i class="material-icons">arrow_upward</i></a></li>
+		</ul>
+	</div>
+<!-- end float menu -->
+
+<!-- start container -->
     <div class="container">
     	<div class="section">
+    		<!-- Rolex Intro -->
     		<div class="row">
     			<div class="col s12 m12 l12 xl12 goup">
     				<img class="responsive-img center-block" src="img/col2/rolex.png" >
@@ -90,7 +107,7 @@
     		</div>
 
     		<div class="divider2"></div>
-
+    		<!-- Solo Watch Top -->
     		<div class="row">
     			<div class="col s12 m12 l12 xl12 goup">
     				<img class="responsive-img maxheight center-block" src="img/col2/rol1.png">
@@ -104,6 +121,7 @@
     			</div>
     		</div>
 
+    		<!-- Twin Watch Top -->
     		<div class="row">
     			<div class="col s12 m6 l6 xl6">
     				<img class="responsive-img watheight center-block goup" src="img/col2/rol2.png">
@@ -117,13 +135,16 @@
     				<div class="divider goup"></div>
     				<p class="aujust goup">Grandmaster (or Grand Master) and Master are titles used to describe or address some senior or experienced martial artists. Typically these titles are honorary in nature, meaning that they do not confer rank, but rather distinguish the individual as very highly revered in their school, system, or style. Asian martial arts traditionally use terms that are usually translated as "teacher" and the use of "master" was a Western invention derived from 1950s United States war veterans returning home with stories of the incredible martial feats of certain individuals and groups.</p>
     			</div>
-    		</div>
-    	<!-- end section -->
+    		</div><!-- end section -->
     	</div>
-    <!-- end container -->
     </div>
+<!-- end container -->
+
+<!-- full width image divider -->   
     <img class="responsive-img" src="img/col2/rolbak2.jpeg">
     <p class="center">Since its inception at the beginning of the 20th century, Rolex has always encouraged individual excellence and the pursuit of perfection. Rolex makes a unique and lasting contribution to global culture, enriching the dialogue between the public and artists of different generations, cultures and disciplines</p>
+
+<!-- start container for more Rolex Collection -->
     <div class="container">
     	<div class="section">
 	    	<h5 class="center">Discover More</h5>
@@ -183,29 +204,11 @@
 	    	</div>
 	    </div>
     </div>
-    
-
-
-
-	<!-- float menu -->
-	<div class="fixed-action-btn vertical">
-		<a class="btn-floating btn-large teal darken-2">
-			<i class="large material-icons">menu</i>
-		</a>
-		<ul>
-			<li><a href="home.html" class="btn-floating red darken-3"><i class="material-icons">home</i></a></li>
-			<li><a href="history.html" class="btn-floating yellow darken-3"><i class="material-icons">history</i></a></li>
-			<li><a href="collection.html" class="btn-floating green darken-3"><i class="material-icons">collections</i></a></li>
-			<li><a href="contact.html" class="btn-floating orange darken-3"><i class="material-icons">phone</i></a></li>
-			<li><a onclick="topFunction()" class="btn-floating grey darken-3"><i class="material-icons">arrow_upward</i></a></li>
-		</ul>
-	</div>
+<!-- end container for more Rolex Collection -->    
 
 	<div class="divider"></div> <!-- divider -->	  
-	
-
-	
-	<!-- footer -->
+		
+<!-- start footer -->
 	<footer class="page-footer grey lighten-3">
 		<div class="container">
 			<div class="row">
@@ -284,7 +287,7 @@
 			</div>
 		</div>
 	</footer>
-	<!-- end footer -->
+<!-- end footer -->
 
 
 
@@ -293,6 +296,7 @@
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<!-- Import custom JS -->
 	<script type="text/javascript" src="js/init.js"></script>
 
 </body>

@@ -1,37 +1,54 @@
+/*slider Home page*/
 #slid {
 	height: 600px !important;
 }
 
 #slids {
 	height: 600px !important;
+}.slider .indicators .indicator-item.active {
+  background-color: #009688 !important;
 }
-
-#dropdown1 {
-	margin-top: 64px;
-}
-
-#rbuttsub {
-	margin-left: 80px;
-}
-
-.aujust {
-	text-align: justify;
-}
-
 
 .slider .indicators .indicator-item.active {
   background-color: #009688 !important;
 }
 
+
+/*dropdown navbar*/
+#dropdown1 {
+	margin-top: 64px;
+}
+
+/*button martin left*/
+#rbuttsub {
+	margin-left: 80px;
+}
+
+/*margin left*/
+.marleft {
+  margin-left: 10px;
+}
+
+/*justify text*/
+.aujust {
+	text-align: justify;
+}
+
+
+/*text shadow*/
 .shadowman {
   text-shadow: 1px 1px 1px #000;
 }
 
+
+/*modal trigger*/
 .modal-trigger {
 	margin-bottom: 15px !important;
 	width: 200px;
 }
 
+
+/*font styles*/
 .fflg {
 	font-family: 'Luckiest Guy', cursive;
 }
@@ -44,14 +61,12 @@
   font-family: 'Fredoka One', cursive;
 }
 
+/*font size*/
 .fonthead {
   font-size: 2.5em;
 }
 
-.marleft {
-	margin-left: 10px;
-}
-
+/*custom divider with margin top & bottom*/
 .divider2 {
   height: 1px;
   overflow: hidden;
@@ -60,6 +75,7 @@
   margin-bottom: 20px;
 }
 
+/*margim top*/
 .martop5 {
 	margin-top: 6px;
 }
@@ -68,6 +84,8 @@
   width: 50px;
 }
 
+
+/*watch custom*/
 .watright {
   text-align: right;
 }
@@ -123,6 +141,7 @@
 }
 
 
+/*history background*/
 main {
   background-image: url("../img/hsbg/h9.jpg");
   background-size: cover;
@@ -139,6 +158,7 @@ main {
   z-index: 9;
 }
 
+/*history set top*/
 #histop {
   margin-top: 0 !important;
 }

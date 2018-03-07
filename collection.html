@@ -25,14 +25,16 @@
 	<title>DiaLuxE</title>
 </head>
 <body class="grey lighten-4">
-	<!-- navbar dropdown -->
+
+<!-- start navbar dropdown -->
 	<ul id="dropdown1" class="dropdown-content">
 		<li><a href="col1.html">Patek Philippe & Co.</a></li>
 		<li><a href="col2.html">Rolex</a></li>
 		<li><a href="col3.html">TAG Heuer</a></li>
 	</ul>
+<!-- end navbar dropdown -->
 
-	<!-- navbar start -->
+<!-- start navbar -->
 	<nav>
 		<div class="nav-wrapper teal darken-4">
 			<a href="home.html" class="brand-logo marleft "><img class="responsive-img" src="img/DiaLuxE.png"></a>
@@ -74,13 +76,28 @@
 			<!-- end small screen nav button -->
 		</div>
 	</nav> <!-- end nav for navbar -->
-	
-    <!-- navbar end -->  
+<!-- end navbar -->  
 
+<!-- start float menu -->
+	<div class="fixed-action-btn vertical">
+		<a class="btn-floating btn-large teal darken-2">
+			<i class="large material-icons">menu</i>
+		</a>
+		<ul>
+			<li><a href="home.html" class="btn-floating red darken-3"><i class="material-icons">home</i></a></li>
+			<li><a href="history.html" class="btn-floating yellow darken-3"><i class="material-icons">history</i></a></li>
+			<li><a href="collection.html" class="btn-floating green darken-3"><i class="material-icons">collections</i></a></li>
+			<li><a href="contact.html" class="btn-floating orange darken-3"><i class="material-icons">phone</i></a></li>
+			<li><a onclick="topFunction()" class="btn-floating grey darken-3"><i class="material-icons">arrow_upward</i></a></li>
+		</ul>
+	</div>
+<!-- end float menu -->
 
+<!-- start parallax -->
 	<div class="parallax-container">
 		<div class="parallax"><img src="img/col/start2.jpg"></div>
 	</div>
+	<!-- start collection intro -->
 	<div class="section grey lighten-2">
 		<div class="row container">
 			<h2 class="header center ffbs">The Collection</h2>
@@ -88,7 +105,9 @@
 			<p class="aujust">mass noun The action or process of collecting someone or something. ‘the collection of data’ ‘refuse collection’ ‘she left the envelope in the office for collection’</p>
 		</div>
 	</div>
+	<!-- end collection intro -->
 
+	<!-- start Patek Philippe & Co. -->
 	<div class="parallax-container pararight">
 		<div class="parallax"><img src="img/col/pat.jpg"></div>
 	</div>
@@ -102,7 +121,9 @@
 			</a>
 		</div>
 	</div>
+	<!-- end Patek Philippe & Co. -->
 
+	<!-- start Rolex -->
 	<div class="parallax-container paraleft">
 		<div class="parallax"><img src="img/col/roly.jpg"></div>
 	</div>
@@ -116,7 +137,9 @@
 			</a>
 		</div>
 	</div>
+	<!-- end Rolex -->
 
+	<!-- start Rolex -->
 	<div class="parallax-container">
 		<div class="parallax"><img src="img/col/tag.png"></div>
 	</div>
@@ -134,27 +157,12 @@
 	<div class="parallax-container">
 		<div class="parallax"><img src="img/col/last.jpg"></div>
 	</div>
-
-
-	<!-- float menu -->
-	<div class="fixed-action-btn vertical">
-		<a class="btn-floating btn-large teal darken-2">
-			<i class="large material-icons">menu</i>
-		</a>
-		<ul>
-			<li><a href="home.html" class="btn-floating red darken-3"><i class="material-icons">home</i></a></li>
-			<li><a href="history.html" class="btn-floating yellow darken-3"><i class="material-icons">history</i></a></li>
-			<li><a href="collection.html" class="btn-floating green darken-3"><i class="material-icons">collections</i></a></li>
-			<li><a href="contact.html" class="btn-floating orange darken-3"><i class="material-icons">phone</i></a></li>
-			<li><a onclick="topFunction()" class="btn-floating grey darken-3"><i class="material-icons">arrow_upward</i></a></li>
-		</ul>
-	</div>
+	<!-- end rolex -->
+<!-- end parallax -->
 
 	<div class="divider"></div> <!-- divider -->	  
 	
-
-	
-	<!-- footer -->
+<!-- start footer -->
 	<footer class="page-footer grey lighten-3">
 		<div class="container">
 			<div class="row">
@@ -226,14 +234,14 @@
 			</div>
 		</div>
 
-          
+        <!-- copyright -->
 		<div class="footer-copyright teal darken-4">
 			<div class="container center">
 				Copyright &copy 2018 | James Alzona | DiaLuxE
 			</div>
 		</div>
 	</footer>
-	<!-- end footer -->
+<!-- end footer -->
 
 
 
@@ -242,6 +250,7 @@
 	<!--Import jQuery before materialize.js-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<!-- Import custom JS -->
 	<script type="text/javascript" src="js/init.js"></script>
 
 </body>
